@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uwuzu.py"  # ← ここが被るとエラーになります！確認して変更してください
+version = "0.1.0"
+description = "This is an API wrapper for a PHP software called uwuzu."
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+  {name = "nd2ew9", email = "admin@argument3384.online"} # ← あなたの名前に変更
+]
+dependencies = [
+  "requests" 
+]
+
+[project.urls]
+"Homepage" = "https://github.com/uargunent3384/uwuzu.py"
